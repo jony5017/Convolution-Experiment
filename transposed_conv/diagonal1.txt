@@ -1,0 +1,4 @@
+  std::vector<float> v2{0., 1., 0.,
+                        1., .0, -1.,
+                        0., -1., 0.};
+    post processing: norm to [0, 255]
