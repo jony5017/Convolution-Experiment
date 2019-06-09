@@ -1,0 +1,16 @@
+  1, std::vector<float> v2{-1., -1., -1.,
+                            0., 0., 0.,
+                            1., 1., 1.};
+  post processing: uint8
+  2, std::vector<float> v2{1., .0, -1.,
+                           1., .0, -1.,
+                           1., .0, -1.};
+  post processing: uint8
+  3, std::vector<float> v2{0., -1., 0.,
+                           1., .0, -1.,
+                           0., 1., 0.};
+  post processing: uint8
+  4, std::vector<float> v2{0., 1., 0.,
+                           1., .0, -1.,
+                           0., -1., 0.};
+  post processing: uint8

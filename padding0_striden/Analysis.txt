@@ -1,0 +1,1 @@
+If the stride is greater and greater, the image looks smaller and smaller with more image info loss.

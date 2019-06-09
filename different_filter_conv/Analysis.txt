@@ -1,0 +1,2 @@
+For this part, we can see it as the forward propagation of a 512x512x1 input, and 4 layers cnn with 1 node in each layer, and bias=0, and fixed weight parameters, without max pooling layer, full connected layer and softmax layer.
+In general, we will normalize the input image to [-1, 1] before we send it to cnn, but here, I will normalize it to [0, 255] so that we can see what it looks like.

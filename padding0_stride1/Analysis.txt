@@ -1,0 +1,8 @@
+As we can see, horizontal feature and vertical feature are much stronger than diagonal features. It's easy to find out the reason, because the basic unit in image is pixel, we cannot divide a pixel to 1/2 or 1/4. In this case, there will be a lot of zigzags in the image to represent diagonal features instead of the real diagonal line.
+zigzags:
+1 1 1 1 0
+1 1 1 1 1 1 0
+1 1 1 1 1 1 1 1 1 0
+1 1 1 1 1 1 1 1 1 1 1 1 0
+
+as you can see, the 0s above looks like a diagonal, but actually for a 3x3 filter, it will see these 0s as horizontal.
