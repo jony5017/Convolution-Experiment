@@ -1,0 +1,2 @@
+1, with the increasement of maxpool stride, the image goes smaller, but it still keeps most of the features, that's why we use max pooling to reduce parameters in cnn.
+2, as we can see, demaxpool can recover most of the features, and filter size=2 is better than filter size=3, because after maxpool, they have almost the same image size, but in demaxpool, filter size=2 image is more smooth and clear.
